@@ -1,0 +1,22 @@
+[Event "Elephant Gambit"]
+[Opening "Elephant Gambit"]
+[ECO "C40"]
+[Side "black"]
+[Tags "e4,open,gambit,offbeat"]
+[Difficulty "2"]
+
+1. e4 e5 2. Nf3 d5 { The Elephant Gambit: Black strikes in the centre immediately. }
+3. exd5 { [%name Maróczy Gambit] }
+( 3. Nxe5 { [%name 3.Nxe5] }
+  3... Bd6 { Challenging the strong knight at once. }
+  4. d4 dxe4 5. Bc4 Bxe5 6. dxe5 Qxd1+ 7. Kxd1 Nc6 { The queens are off and the e5 pawn will fall. }
+  8. Bf4 Be6 { Trading the dangerous c4 bishop; the endgame is equal. } )
+3... Bd6 { Developing and letting the d5 pawn go for now. }
+( 3... e4 { [%name Paulsen Countergambit] Gaining space and hitting the f3 knight. }
+  4. Qe2 Nf6 5. d3 Be7 6. dxe4 O-O { Black castles quickly; the e-file will open against the white queen. }
+  7. Nc3 Re8 )
+4. d4 e4 { Gaining space and chasing the knight. }
+5. Ne5 Nf6 { Developing; ...O-O and ...Nxd5 come next. }
+6. Bc4 O-O 7. O-O Nbd7 { Challenging the e5 knight. }
+8. Bf4 Nb6 { Hitting the c4 bishop and the d5 pawn. }
+9. Bb3 Nbxd5 { Black has won back the pawn with active pieces. } *

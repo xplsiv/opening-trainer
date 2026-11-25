@@ -1,0 +1,26 @@
+[Event "Nimzo-Larsen Attack"]
+[Opening "Nimzo-Larsen Attack"]
+[ECO "A01"]
+[Origin "Aron Nimzowitsch & Bent Larsen"]
+[Side "white"]
+[Tags "flank,hypermodern,fianchetto"]
+[Difficulty "2"]
+
+1. b3 { The Nimzo-Larsen Attack: the queen's bishop goes to b2 and controls e5 and d4 from afar. }
+1... e5 { [%name 1...e5 Classical] }
+( 1... d5 { [%name 1...d5] }
+  2. Bb2 { The bishop is developed before Black can block the long diagonal. }
+  2... Nf6 3. e3 e6 4. Nf3 c5 5. c4 { A Queen's Indian with colours reversed: White pressures d5 and watches e5. }
+  5... Nc6 6. cxd5 exd5 7. Bb5 { Pinning the knight that guards e5 and d4. }
+  7... Bd6 8. O-O O-O 9. Bxc6 bxc6 10. d3 { White gave the bishop to saddle Black with hanging pawns; c4 and Nbd2 follow. } )
+( 1... Nf6 { [%name 1...Nf6] }
+  2. Bb2 g6 3. e4 { With g7 still empty, 3...Nxe4?? loses the rook to 4.Bxh8. }
+  3... d6 4. d4 Bg7 5. Nc3 O-O 6. Nf3 { A classical centre with the b2 bishop as a bonus. }
+  6... Bg4 7. Be2 )
+2. Bb2 { Attacking e5 right away. }
+2... Nc6 3. e3 { Solid: the e-pawn controls d4 and frees the f1 bishop. }
+3... d5 4. Bb5 { Pinning the knight that defends e5, so the pressure on the pawn grows. }
+4... Bd6 5. f4 { A third attacker on e5 and space on the kingside. }
+5... Qh4+ 6. g3 Qe7 7. Nf3 { Developing with yet another attacker of e5. }
+7... f6 8. Nc3 { Eyeing d5 and keeping both castling options. }
+8... Bd7 9. O-O { White is fully developed and Black's centre stays under fire. } *

@@ -1,0 +1,19 @@
+[Event "From's Gambit"]
+[Opening "Bird Opening: From's Gambit"]
+[ECO "A02"]
+[Origin "Martin Severin From (1860s)"]
+[Side "black"]
+[Tags "flank,gambit,sharp,trap"]
+[Difficulty "2"]
+
+1. f4 e5 { From's Gambit: Black exploits the weakened e1-h4 diagonal. }
+2. fxe5 d6 { Offering a second pawn to open lines against the white king. }
+3. exd6 Bxd6 { Threatening ...Qh4+ followed by ...Qxg3+. }
+4. Nf3 { [%name 4.Nf3 Lasker Variation] }
+( 4. Nc3 { [%name 4.Nc3?? Trap] }
+  4... Qh4+ 5. g3 Qxg3+ { The queen sacrifice opens the diagonal. }
+  6. hxg3 Bxg3# { From's Gambit trap: checkmate on move six. } )
+4... g5 { The Lasker idea: ...g4 drives away the knight that guards h2 and h4. }
+5. d4 g4 6. Ne5 Bxe5 { Removing the defender. }
+7. dxe5 Qxd1+ 8. Kxd1 Nc6 { The e5 pawn is weak and White's king has lost castling rights. }
+9. Bf4 Be6 10. Nc3 O-O-O+ { Castling with check: Black's lead in development wins back material. } *

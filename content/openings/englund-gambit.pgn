@@ -1,0 +1,19 @@
+[Event "Englund Gambit"]
+[Opening "Englund Gambit"]
+[ECO "A40"]
+[Origin "Fritz Englund (early 1900s)"]
+[Side "black"]
+[Tags "d4,gambit,offbeat,trap"]
+[Difficulty "1"]
+
+1. d4 e5 { The Englund Gambit: a provocative pawn offer aiming for quick tricks. }
+2. dxe5 Nc6 { Attacking the e5 pawn at once. }
+3. Nf3 Qe7 { Piling up on e5 and preparing the famous trap. }
+4. Bf4 Qb4+ { Check that also forks the f4 bishop and b2. }
+5. Bd2 Qxb2 { Taking the pawn; now 6.Bc3? walks into a mating net. }
+6. Bc3 { [%name 6.Bc3? Trap] }
+( 6. Nc3 { [%name 6.Nc3 Main Line] }
+  6... Bb4 { Pinning the knight; the threat is ...Bxc3 winning material. }
+  7. Rb1 Qa3 8. Rb3 Qa5 { The queen escapes and keeps the pin; Black will win back e5 with ...Nge7 and ...Ng6. } )
+6... Bb4 { Pinning the bishop so the queen can't be defended from c3. }
+7. Qd2 Bxc3 8. Qxc3 Qc1# { The Englund trap: the queen mates on c1. } *

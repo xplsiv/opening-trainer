@@ -1,0 +1,13 @@
+[Event "Martian Gambit"]
+[Opening "Caro-Kann Defense: Martian Gambit"]
+[ECO "B18"]
+[Side "white"]
+[Tags "e4,caro-kann,gambit,offbeat,sharp"]
+[Difficulty "3"]
+
+1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng5 { Instead of chasing the bishop with 5.Ng3, the knight eyes e6 and f7. }
+5... Bg6 6. N1f3 { Bringing the second knight before the first one is kicked. }
+6... h6 7. Ne6 { The Martian Gambit: the knight forks queen and bishop and must be taken. }
+7... fxe6 8. Bd3 { Trading off the g6 bishop, the only guard of the light squares. }
+8... Bxd3 9. Qxd3 Nf6 10. Qg6+ { The queen lands on g6 and the black king has to walk. }
+10... Kd7 11. Ne5+ Kc7 { White has a strong attack for the piece: Bf4, O-O-O and Rhe1 come next. } *

@@ -1,0 +1,22 @@
+[Event "Budapest Gambit"]
+[Opening "Indian Defense: Budapest Gambit"]
+[ECO "A52"]
+[Origin "Adler vs Maróczy, Budapest (1896)"]
+[Side "black"]
+[Tags "d4,gambit,offbeat"]
+[Difficulty "2"]
+
+1. d4 Nf6 2. c4 e5 { The Budapest Gambit: Black hits the centre and plans to win e5 back. }
+3. dxe5 Ng4 { The knight heads straight for the e5 pawn. }
+4. Bf4 { [%name 4.Bf4 Rubinstein Variation] }
+( 4. Nf3 { [%name 4.Nf3 Adler Variation] }
+  4... Bc5 { Aiming at f2 and adding pressure to e5 indirectly. }
+  5. e3 Nc6 6. Be2 Ngxe5 7. Nxe5 Nxe5 { The pawn is back with easy development. }
+  8. O-O O-O 9. Nc3 Re8 { The rook supports the e5 knight; ...Re6-h6 is a typical attacking idea. } )
+( 4. e4 { [%name 4.e4 Alekhine Variation] }
+  4... Nxe5 { Taking back the pawn before White can defend it. }
+  5. f4 Nec6 6. Be3 Bb4+ 7. Nc3 Qe7 8. Bd3 f5 { Striking at the big centre before it rolls forward. } )
+4... Nc6 5. Nf3 Bb4+ { Developing with check. }
+6. Nbd2 Qe7 { A third attacker on e5. }
+7. e3 Ngxe5 8. Nxe5 Nxe5 { The pawn is regained. }
+9. Be2 O-O { Black is fully developed; ...d6 and ...a5 follow. } *

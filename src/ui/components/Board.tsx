@@ -27,6 +27,8 @@ interface Props {
   hintSquare?: string;
   arrows?: Arrow[];
   animate?: boolean;
+  /** Small SVG marker drawn on a square (100x100 viewBox), e.g. a move-quality icon. */
+  badge?: { square: string; svg: string };
 }
 
 const PROMO_NAME = { q: 'Queen', r: 'Rook', b: 'Bishop', n: 'Knight' } as const;
@@ -51,7 +53,7 @@ function isPromotion(fen: string, from: string, to: string): boolean {
   return piece?.type === 'p' && (to[1] === '8' || to[1] === '1');
 }
 
-export function Board({ fen, orientation, interactive, onlyMoves, onMove, lastMove, hintSquare, arrows, animate = true }: Props) {
+export function Board({ fen, orientation, interactive, onlyMoves, onMove, lastMove, hintSquare, arrows, animate = true, badge }: Props) {
   const el = useRef<HTMLDivElement>(null);
   const api = useRef<Api | null>(null);
   const [promo, setPromo] = useState<{ from: string; to: string } | null>(null);
@@ -99,6 +101,7 @@ export function Board({ fen, orientation, interactive, onlyMoves, onMove, lastMo
     const custom = new Map<Key, string>();
     if (hintSquare) custom.set(hintSquare as Key, 'hint');
     const shapes: DrawShape[] = (arrows ?? []).map((a) => ({ orig: a.from as Key, dest: a.to as Key, brush: a.brush }));
+    if (badge) shapes.push({ orig: badge.square as Key, customSvg: { html: badge.svg } });
     const cfg: Config = {
       fen,
       orientation,

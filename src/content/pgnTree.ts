@@ -171,6 +171,7 @@ export function openingFromPgn(text: string, meta: OpeningMeta & ParseOptions): 
     id: meta.id,
     name: meta.name ?? headers.Opening ?? headers.Event ?? meta.id,
     eco: meta.eco ?? headers.ECO ?? '',
+    ...(headers.Origin?.trim() ? { origin: headers.Origin.trim() } : {}),
     side: side ?? 'white',
     tags: meta.tags ?? (headers.Tags ? headers.Tags.split(',').map((t) => t.trim()).filter(Boolean) : []),
     difficulty: diff === 2 || diff === 3 ? diff : 1,

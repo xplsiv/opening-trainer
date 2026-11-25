@@ -1,0 +1,22 @@
+[Event "Danish Gambit"]
+[Opening "Danish Gambit"]
+[ECO "C21"]
+[Origin "Danish masters (19th century)"]
+[Side "white"]
+[Tags "e4,open,gambit,sharp"]
+[Difficulty "2"]
+
+1. e4 e5 2. d4 exd4 3. c3 { The Danish Gambit: White offers up to two pawns for a big lead in development. }
+3... dxc3 { [%name Accepted, 5...d5] }
+( 3... d5 { [%name Sörensen Defense] Declining: Black strikes back in the centre. }
+  4. exd5 Qxd5 5. cxd4 { White gets a free central pawn and fast development. }
+  5... Nc6 6. Nf3 Bg4 7. Be2 Bb4+ 8. Nc3 Bxf3 9. Bxf3 { The bishop pair and quick development make up for the isolated d-pawn. } )
+4. Bc4 { Offering the second pawn: development matters more than material. }
+4... cxb2 5. Bxb2 { Two bishops rake the kingside: c4 aims at f7, b2 at g7. }
+5... d5 { Black returns material to catch up in development. }
+( 5... Bb4+ { [%name Copenhagen Defense] }
+  6. Nc3 { Blocking the check and developing; the knight is pinned but well protected. }
+  6... Nf6 7. Ne2 Nxe4 8. O-O Nxc3 9. Nxc3 Bxc3 10. Bxc3 { Three pawns down, but the bishops, open files and Qg4/Re1 ideas give White real play. } )
+6. Bxd5 { Taking back a pawn with the bishop centralised. }
+6... Nf6 7. Bxf7+ Kxf7 8. Qxd8 { Winning the queen back with interest: Black must give the bishop to regain it. }
+8... Bb4+ 9. Qd2 Bxd2+ 10. Nxd2 { Material is level; a quiet endgame where accurate play is needed. } *

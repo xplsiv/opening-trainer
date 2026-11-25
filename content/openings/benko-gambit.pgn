@@ -1,0 +1,18 @@
+[Event "Benko Gambit"]
+[Opening "Benko Gambit"]
+[ECO "A57"]
+[Origin "Pal Benko (1960s)"]
+[Side "black"]
+[Tags "d4,gambit,positional"]
+[Difficulty "3"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 { The Benko Gambit: a queenside pawn for long-term pressure on the a- and b-files. }
+4. cxb5 a6 { Opening the files right away. }
+5. bxa6 { [%name Fully Accepted] }
+( 5. b6 { [%name Pawn Return Variation] }
+  5... d6 { The b6 pawn is weak and will be collected later with ...Nbd7xb6. }
+  6. Nc3 Nbd7 7. e4 g6 8. Nf3 Bg7 9. Be2 O-O { Black wins b6 back next with ...Nxb6 or ...Qxb6. } )
+5... g6 6. Nc3 Bxa6 { The bishop recaptures and will trade off White's good bishop. }
+7. e4 Bxf1 8. Kxf1 { White has lost the right to castle. }
+8... d6 9. Nf3 Bg7 { The long-diagonal bishop adds pressure to the queenside. }
+10. g3 O-O 11. Kg2 Nbd7 { ...Qa5 and ...Rfb8 follow: typical Benko pressure on a2 and b2. } *

@@ -1,7 +1,26 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useAppData } from '../data';
 import { href } from '../router';
 import { cleanSelection, selectionToParams } from '../../engine/selection';
+import type { Opening } from '../../engine/types';
+
+type TabId = 'openings' | 'gambits';
+const TABS: { id: TabId; label: string }[] = [
+  { id: 'openings', label: 'Openings' },
+  { id: 'gambits', label: 'Gambits' },
+];
+const TAB_KEY = 'home-tab';
+
+/** Openings tagged "gambit" (built-in or imported) go to the Gambits tab. */
+const tabOf = (o: Opening): TabId => (o.tags.includes('gambit') ? 'gambits' : 'openings');
+
+function readTab(): TabId {
+  try {
+    return localStorage.getItem(TAB_KEY) === 'gambits' ? 'gambits' : 'openings';
+  } catch {
+    return 'openings';
+  }
+}
 
 export function Home() {
   const { openings, counts, loaded, sets, indexes, cardsFor } = useAppData();
@@ -11,6 +30,14 @@ export function Home() {
   const totalNew = rows.reduce((n, r) => n + r.c.new, 0);
   const allIds = openings.map((o) => o.id).join(',');
   const anything = totalDue + totalNew > 0;
+  const [tab, setTab] = useState<TabId>(readTab);
+  const selectTab = (t: TabId) => {
+    setTab(t);
+    try { localStorage.setItem(TAB_KEY, t); } catch { /* storage unavailable */ }
+  };
+  const visible = rows.filter((r) => tabOf(r.o) === tab);
+  const tabDue = visible.reduce((n, r) => n + r.c.due, 0);
+  const tabNew = visible.reduce((n, r) => n + r.c.new, 0);
 
   return (
     <div className="page">
@@ -54,16 +81,38 @@ export function Home() {
       )}
 
       <div className="row-between">
-        <h2>Openings</h2>
+        <div className="tabs" role="tablist" aria-label="Opening category">
+          {TABS.map((t) => {
+            const n = rows.filter((r) => tabOf(r.o) === t.id).length;
+            return (
+              <button key={t.id} role="tab" id={`tab-${t.id}`} aria-selected={tab === t.id} aria-controls="opening-panel"
+                className={`tab ${tab === t.id ? 'on' : ''}`} onClick={() => selectTab(t.id)}>
+                {t.label} <span className="tab-count">{n}</span>
+              </button>
+            );
+          })}
+        </div>
         <a className="btn small" href="#/import">+ Import PGN</a>
       </div>
-      <ul className="opening-list">
-        {rows.map(({ o, c }) => (
+      {visible.length > 0 && (
+        <div className="tab-actions">
+          <span className="muted small">{tabDue} due · {tabNew} new</span>
+          <a className={`btn small ${tabDue + tabNew > 0 ? '' : 'disabled'}`} href={href('quiz', { o: visible.map((r) => r.o.id).join(','), q: 'due' })}>
+            Quiz all {tab === 'gambits' ? 'gambits' : 'openings'}
+          </a>
+        </div>
+      )}
+      {tab === 'gambits' && visible.length === 0 && (
+        <p className="muted small">No gambits yet. Openings tagged “gambit” appear here.</p>
+      )}
+      <ul className="opening-list" id="opening-panel" role="tabpanel" aria-labelledby={`tab-${tab}`}>
+        {visible.map(({ o, c }) => (
           <li key={o.id} className="opening-row">
             <div className="opening-info">
               <div className="opening-name">{o.name}</div>
               <div className="opening-meta">
                 <span className={`side-dot ${o.side}`} aria-hidden /> {o.side === 'white' ? 'White' : 'Black'}{o.eco ? ` · ${o.eco}` : ''}
+                {o.origin && <> · <span className="origin" title="Invented / named by">{o.origin}</span></>}
                 {o.source === 'imported' && <span className="badge">Imported</span>}
               </div>
               <div className="progress-pills">

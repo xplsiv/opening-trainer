@@ -1,0 +1,12 @@
+[Event "Alien Gambit"]
+[Opening "Caro-Kann Defense: Alien Gambit"]
+[ECO "B15"]
+[Side "white"]
+[Tags "e4,caro-kann,gambit,offbeat,sharp"]
+[Difficulty "3"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng5 { Instead of trading on f6 the knight jumps forward, eyeing f7. }
+5... h6 6. Nxf7 { The Alien Gambit: a whole knight for a pawn and Black's king. }
+6... Kxf7 7. Nf3 { Fast development is the only way to justify the piece: Bc4+ and Ne5+ are coming. }
+7... Bg4 8. Bc4+ e6 9. h3 { Asking the bishop where it wants to go before castling. }
+9... Bh5 10. O-O { Ne5+, g4 and Re1 follow. Objectively dubious, but very dangerous in fast games. } *

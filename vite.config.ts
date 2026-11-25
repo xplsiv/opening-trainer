@@ -30,7 +30,8 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,wasm}'],
+        maximumFileSizeToCacheInBytes: 3 * 1024 * 1024, // the Stockfish wasm (~1.8 MB) works offline too
         navigateFallback: `${base}index.html`,
       },
     }),

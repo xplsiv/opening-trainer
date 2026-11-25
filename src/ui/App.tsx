@@ -7,6 +7,8 @@ import { Quiz } from './routes/Quiz';
 import { Setup } from './routes/Setup';
 import { Import } from './routes/Import';
 import { Settings, SyncStatusText } from './routes/Settings';
+import { Analysis } from './routes/Analysis';
+import { Review } from './routes/Review';
 import { startSync, useSyncStatus } from '../sync/instance';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
@@ -33,14 +35,24 @@ function Shell() {
   else if (section === 'setup') page = <Setup key={route.params.toString()} params={route.params} />;
   else if (section === 'import') page = <Import />;
   else if (section === 'settings') page = <Settings />;
+  else if (section === 'analysis' && id === 'review') page = <Review key={route.params.toString()} params={route.params} />;
+  else if (section === 'analysis') page = <Analysis />;
   else page = <Home />;
+  const inAnalysis = section === 'analysis';
 
   return (
     <div className="app">
       <header className="topbar">
-        <a href="#/" className="brand">♞ Openings</a>
+        <nav className="app-tabs" aria-label="Sections">
+          <a href="#/" className={`app-tab ${inAnalysis ? '' : 'on'}`} aria-current={inAnalysis ? undefined : 'page'}>
+            <span aria-hidden>♞</span> Openings
+          </a>
+          <a href="#/analysis" className={`app-tab ${inAnalysis ? 'on' : ''}`} aria-current={inAnalysis ? 'page' : undefined}>
+            <span aria-hidden>±</span> Analysis
+          </a>
+        </nav>
         <nav>
-          <a className="btn small ghost" href="#/setup">Quiz setup</a>
+          {!inAnalysis && <a className="btn small ghost" href="#/setup">Quiz setup</a>}
           <SyncChip />
         </nav>
       </header>

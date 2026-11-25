@@ -16,6 +16,7 @@ export interface Opening {
   id: string; // builtin: filename slug; imported: uuid
   name: string;
   eco: string;
+  origin?: string; // who invented, named or popularised it ([Origin] PGN header)
   side: Side; // colour the learner plays
   tags: string[];
   difficulty: 1 | 2 | 3;

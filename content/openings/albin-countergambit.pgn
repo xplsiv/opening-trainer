@@ -1,0 +1,19 @@
+[Event "Albin Countergambit"]
+[Opening "Queen's Gambit Declined: Albin Countergambit"]
+[ECO "D08"]
+[Origin "Adolf Albin (1893)"]
+[Side "black"]
+[Tags "d4,gambit,sharp,trap"]
+[Difficulty "2"]
+
+1. d4 d5 2. c4 e5 { The Albin Countergambit: Black answers the Queen's Gambit with a gambit. }
+3. dxe5 d4 { The d4 pawn cramps White and sets traps. }
+4. Nf3 { [%name 4.Nf3 Main Line] }
+( 4. e3 { [%name 4.e3? Lasker Trap] }
+  4... Bb4+ { The check sets up the trap. }
+  5. Bd2 dxe3 6. Bxb4 exf2+ 7. Ke2 fxg1=N+ { Underpromotion to a knight with check! }
+  8. Ke1 Qh4+ 9. Kd2 Nc6 { Bringing more pieces into the attack. }
+  10. Bc3 Bg4 { The Lasker Trap: Black's attack is decisive. } )
+4... Nc6 5. g3 Be6 { Hitting c4 and preparing ...Qd7 and long castling. }
+6. Nbd2 Qd7 7. Bg2 O-O-O { Opposite-side castling: ...Bh3 and ...h5-h4 against White's king. }
+8. O-O Bh3 { Trading off the g2 bishop, the key defender of White's king. } *

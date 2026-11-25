@@ -93,7 +93,7 @@ export function Learn({ openingId }: { openingId: string }) {
       <aside className="panel">
         <header className="panel-head">
           <h1>{o.name}</h1>
-          <div className="opening-meta">{o.eco ? `${o.eco} · ` : ''}you play {o.side} · {c.learned}/{c.new + c.learning + c.due + c.learned} learned</div>
+          <div className="opening-meta">{o.eco ? `${o.eco} · ` : ''}{o.origin ? `${o.origin} · ` : ''}you play {o.side} ·{c.learned}/{c.new + c.learning + c.due + c.learned} learned</div>
         </header>
 
         <label className="field">

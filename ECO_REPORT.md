@@ -7,29 +7,43 @@ For each opening file, every position along every line is looked up in the datas
 The header ECO passes if it is the code of at least one of those positions; the header name passes if it
 equals a dataset name along the lines (or, for a name without a sub-variation, the family before the colon matches).
 
-**34 openings checked, 0 mismatches.**
+**49 openings checked, 0 mismatches.**
 
 ## Summary
 
 | Opening | File | ECO | ECO ok | Name ok | Main line ends in (dataset) | ECO codes seen |
 |---|---|---|---|---|---|---|
+| Queen's Gambit Declined: Albin Countergambit | albin-countergambit.pgn | D08 | ✓ | ✓ | D09 Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Be6 Line | A40, D00, D06, D08, D09 |
+| Caro-Kann Defense: Alien Gambit | alien-gambit.pgn | B15 | ✓ | ✓ | B15 Caro-Kann Defense: Alien Gambit | B00, B10, B12, B15 |
+| Benko Gambit | benko-gambit.pgn | A57 | ✓ | ✓ | A59 Benko Gambit Accepted: King Walk Variation | A40, A45, A50, A56, A57, A58, A59 |
 | Bishop's Opening | bishops-opening.pgn | C24 | ✓ | ✓ | C24 Bishop's Opening: Berlin Defense | B00, C20, C23, C24, C55 |
+| Blackmar-Diemer Gambit | blackmar-diemer-gambit.pgn | D00 | ✓ | ✓ | D00 Blackmar-Diemer Gambit Accepted: Teichmann Defense, Classical Variation | A40, D00 |
+| Indian Defense: Budapest Gambit | budapest-gambit.pgn | A52 | ✓ | ✓ | A52 Indian Defense: Budapest Gambit Accepted, Main Line, Rubinstein Variation | A40, A45, A50, A51, A52 |
 | Caro-Kann Defense: Advance Variation | caro-kann-advance.pgn | B12 | ✓ | ✓ | B12 Caro-Kann Defense: Advance Variation, Short Variation | B00, B10, B12 |
 | Caro-Kann Defense: Classical Variation | caro-kann-classical.pgn | B18 | ✓ | ✓ | B19 Caro-Kann Defense: Classical Variation, Lobron System | B00, B10, B12, B15, B17, B18, B19 |
 | Catalan Opening | catalan.pgn | E01 | ✓ | ✓ | E05 Catalan Opening: Open Defense, Classical Line | A40, A45, A50, E00, E01, E05, E06, E07, E08, E09 |
 | Queen's Pawn Game: Colle System | colle-system.pgn | D05 | ✓ | ✓ | D05 Queen's Pawn Game: Colle System, Traditional Colle | A40, D00, D02, D04, D05 |
+| Danish Gambit | danish-gambit.pgn | C21 | ✓ | ✓ | C21 Danish Gambit Accepted: Schlechter Defense | B00, C20, C21 |
 | Dutch Defense | dutch.pgn | A80 | ✓ | ✓ | A81 Dutch Defense: Semi-Leningrad Variation | A40, A80, A81, A82, A83, A84, A86, A90 |
+| Elephant Gambit | elephant-gambit.pgn | C40 | ✓ | ✓ | C40 Elephant Gambit: Maróczy Gambit | B00, C20, C40 |
 | English Opening | english.pgn | A10 | ✓ | ✓ | A29 English Opening: King's English Variation, Four Knights Variation, Fianchetto Line, with Nb6 | A10, A15, A16, A17, A18, A20, A21, A22, A25, A26, A28, A29, A30, A37, A38, A39 |
+| Englund Gambit | englund-gambit.pgn | A40 | ✓ | ✓ | A40 Englund Gambit: Main Line | A40 |
+| Italian Game: Evans Gambit | evans-gambit.pgn | C51 | ✓ | ✓ | C52 Italian Game: Evans Gambit, Mieses Defense | B00, C20, C40, C44, C50, C51, C52 |
 | French Defense: Advance Variation | french-advance.pgn | C02 | ✓ | ✓ | C02 French Defense: Advance Variation, Main Line | B00, C00, C02 |
 | French Defense: Classical Variation | french-classical.pgn | C11 | ✓ | ✓ | C11 French Defense: Steinitz Variation, Boleslavsky Variation | B00, C00, C10, C11, C12, C13, C14 |
 | French Defense: Winawer Variation | french-winawer.pgn | C15 | ✓ | ✓ | C18 French Defense: Winawer Variation, Poisoned Pawn Variation, Main Line | B00, C00, C10, C15, C16, C17, C18, C19 |
+| Bird Opening: From's Gambit | froms-gambit.pgn | A02 | ✓ | ✓ | A02 Bird Opening: From's Gambit, Lasker Variation | A02 |
 | Grünfeld Defense | grunfeld.pgn | D80 | ✓ | ✓ | D86 Grünfeld Defense: Exchange Variation, Classical Variation | A40, A45, A50, D80, D82, D85, D86, D90, D96, D97, D98, D99, E60, E61 |
+| Four Knights Game: Halloween Gambit | halloween-gambit.pgn | C47 | ✓ | ✓ | C47 Four Knights Game: Halloween Gambit, Oldtimer Variation | B00, C20, C40, C44, C46, C47 |
 | Italian Game | italian-game.pgn | C50 | ✓ | ✓ | C54 Italian Game: Classical Variation, Greco Gambit, Traditional Line | B00, C20, C40, C44, C50, C51, C52, C53, C54, C55 |
 | King's Gambit | kings-gambit.pgn | C30 | ✓ | ✓ | C39 King's Gambit Accepted: Kieseritzky Gambit, Berlin Defense, Rubinstein Variation | B00, C20, C30, C33, C34, C39 |
 | King's Indian Attack | kings-indian-attack.pgn | A07 | ✓ | ✓ | A08 King's Indian Attack: Sicilian Variation | A04, A05, A06, A07, A08, B00, B20, B27, B40, C00 |
 | King's Indian Defense | kings-indian.pgn | E60 | ✓ | ✓ | E98 King's Indian Defense: Orthodox Variation, Classical System | A40, A45, A50, A68, E60, E61, E67, E68, E69, E70, E76, E77, E80, E81, E85, E87, E90, E91, E92, E94, E97, E98 |
+| Latvian Gambit | latvian-gambit.pgn | C40 | ✓ | ✓ | C40 Latvian Gambit Accepted: Bilguer Variation | B00, C20, C40 |
 | London System | london-system.pgn | D02 | ✓ | ✓ | D02 Queen's Pawn Game: London System | A40, A45, A48, D00, D02 |
+| Caro-Kann Defense: Martian Gambit | martian-gambit.pgn | B18 | ✓ | ✓ | B18 Caro-Kann Defense: Martian Gambit | B00, B10, B12, B15, B18 |
 | Nimzo-Indian Defense | nimzo-indian.pgn | E20 | ✓ | ✓ | E59 Nimzo-Indian Defense: Normal Variation, Bernstein Defense | A40, A45, A50, E20, E21, E24, E26, E29, E32, E40, E46, E47, E48, E53, E56, E58, E59 |
+| Nimzo-Larsen Attack | nimzo-larsen-attack.pgn | A01 | ✓ | ✓ | A01 Nimzo-Larsen Attack: Modern Variation | A01, A13 |
 | Petrov's Defense | petroff.pgn | C42 | ✓ | ✓ | C42 Petrov's Defense: Classical Attack, Chigorin Variation, Main Line | B00, C20, C40, C42, C43 |
 | Philidor Defense | philidor.pgn | C41 | ✓ | ✓ | C41 Philidor Defense: Lion Variation | B00, C20, C40, C41 |
 | Pirc Defense | pirc-modern.pgn | B07 | ✓ | ✓ | B08 Pirc Defense: Classical Variation, Quiet System, Parma Defense | B00, B06, B07, B08, B09 |
@@ -45,10 +59,51 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 | Sicilian Defense: Dragon Variation | sicilian-dragon.pgn | B70 | ✓ | ✓ | B78 Sicilian Defense: Dragon Variation, Yugoslav Attack, Old Line | B00, B20, B27, B50, B54, B70, B72, B74, B75, B76, B77, B78 |
 | Sicilian Defense: Najdorf Variation | sicilian-najdorf.pgn | B90 | ✓ | ✓ | B90 Sicilian Defense: Najdorf Variation, English Attack | B00, B20, B27, B50, B54, B90, B92, B94, B95, B96, B98, B99 |
 | Slav Defense | slav.pgn | D10 | ✓ | ✓ | D19 Slav Defense: Czech Variation, Dutch Variation | A40, D00, D06, D10, D11, D12, D15, D16, D17, D18, D19 |
+| Sicilian Defense: Smith-Morra Gambit | smith-morra-gambit.pgn | B21 | ✓ | ✓ | B21 Sicilian Defense: Smith-Morra Gambit Accepted, Scheveningen Formation | B00, B20, B21 |
 | Trompowsky Attack | trompowsky.pgn | A45 | ✓ | ✓ | A45 Trompowsky Attack | A40, A45 |
 | Vienna Game | vienna-game.pgn | C25 | ✓ | ✓ | C29 Vienna Game: Vienna Gambit, Breyer Variation | B00, C20, C25, C26, C29 |
 
 ## Per line
+
+### Queen's Gambit Declined: Albin Countergambit (D08) — `albin-countergambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| 4.Nf3 Main Line | D09 Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Be6 Line | 10 plies |
+| 4.e3? Lasker Trap | D08 Queen's Gambit Declined: Albin Countergambit, Lasker Trap | 10 plies |
+
+<details><summary>Moves</summary>
+
+- **4.Nf3 Main Line:** 1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Be6 6.Nbd2 Qd7 7.Bg2 O-O-O 8.O-O Bh3
+- **4.e3? Lasker Trap:** 1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2 dxe3 6.Bxb4 exf2+ 7.Ke2 fxg1=N+ 8.Ke1 Qh4+ 9.Kd2 Nc6 10.Bc3 Bg4
+
+</details>
+
+### Caro-Kann Defense: Alien Gambit (B15) — `alien-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Main line | B15 Caro-Kann Defense: Alien Gambit | 11 plies |
+
+<details><summary>Moves</summary>
+
+- **Main line:** 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Ng5 h6 6.Nxf7 Kxf7 7.Nf3 Bg4 8.Bc4+ e6 9.h3 Bh5 10.O-O
+
+</details>
+
+### Benko Gambit (A57) — `benko-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Fully Accepted | A59 Benko Gambit Accepted: King Walk Variation | 21 plies |
+| Pawn Return Variation | A57 Benko Gambit Accepted: Pawn Return Variation | 9 plies |
+
+<details><summary>Moves</summary>
+
+- **Fully Accepted:** 1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6 6.Nc3 Bxa6 7.e4 Bxf1 8.Kxf1 d6 9.Nf3 Bg7 10.g3 O-O 11.Kg2 Nbd7
+- **Pawn Return Variation:** 1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.b6 d6 6.Nc3 Nbd7 7.e4 g6 8.Nf3 Bg7 9.Be2 O-O
+
+</details>
 
 ### Bishop's Opening (C24) — `bishops-opening.pgn`
 
@@ -63,6 +118,38 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 - **3...Bc5:** 1.e4 e5 2.Bc4 Nf6 3.d3 Bc5 4.Nf3 d6 5.c3 O-O 6.O-O Bb6 7.Bb3
 - **3...Nc6:** 1.e4 e5 2.Bc4 Nf6 3.d3 Nc6 4.Nf3 Be7 5.O-O O-O 6.Re1 d6 7.c3
 - **3...d5:** 1.e4 e5 2.Bc4 Nf6 3.d3 d5 4.exd5 Nxd5 5.Nf3 Nc6 6.O-O Be7 7.Re1
+
+</details>
+
+### Blackmar-Diemer Gambit (D00) — `blackmar-diemer-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Teichmann Defense | D00 Blackmar-Diemer Gambit Accepted: Teichmann Defense, Classical Variation | 15 plies |
+| Euwe Defense | D00 Blackmar-Diemer Gambit Accepted: Euwe Defense | 10 plies |
+| Bogoljubov Defense | D00 Blackmar-Diemer Gambit Accepted: Bogoljubow Defense, Studier Attack | 15 plies |
+
+<details><summary>Moves</summary>
+
+- **Teichmann Defense:** 1.d4 d5 2.e4 dxe4 3.Nc3 Nf6 4.f3 exf3 5.Nxf3 Bg4 6.h3 Bxf3 7.Qxf3 c6 8.Be3 e6 9.Bd3 Nbd7 10.O-O-O
+- **Euwe Defense:** 1.d4 d5 2.e4 dxe4 3.Nc3 Nf6 4.f3 exf3 5.Nxf3 e6 6.Bg5 Be7 7.Bd3 Nbd7 8.O-O c5 9.Qe1
+- **Bogoljubov Defense:** 1.d4 d5 2.e4 dxe4 3.Nc3 Nf6 4.f3 exf3 5.Nxf3 g6 6.Bc4 Bg7 7.O-O O-O 8.Qe1 Nc6 9.Qh4
+
+</details>
+
+### Indian Defense: Budapest Gambit (A52) — `budapest-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| 4.Bf4 Rubinstein Variation | A52 Indian Defense: Budapest Gambit Accepted, Main Line, Rubinstein Variation | 7 plies |
+| 4.Nf3 Adler Variation | A52 Indian Defense: Budapest Gambit Accepted, Main Line, Adler Variation | 7 plies |
+| 4.e4 Alekhine Variation | A52 Indian Defense: Budapest Gambit Accepted, Main Line, Alekhine Variation, Abonyi Variation | 8 plies |
+
+<details><summary>Moves</summary>
+
+- **4.Bf4 Rubinstein Variation:** 1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Bf4 Nc6 5.Nf3 Bb4+ 6.Nbd2 Qe7 7.e3 Ngxe5 8.Nxe5 Nxe5 9.Be2 O-O
+- **4.Nf3 Adler Variation:** 1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Nf3 Bc5 5.e3 Nc6 6.Be2 Ngxe5 7.Nxe5 Nxe5 8.O-O O-O 9.Nc3 Re8
+- **4.e4 Alekhine Variation:** 1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.e4 Nxe5 5.f4 Nec6 6.Be3 Bb4+ 7.Nc3 Qe7 8.Bd3 f5
 
 </details>
 
@@ -122,6 +209,22 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 
 </details>
 
+### Danish Gambit (C21) — `danish-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Accepted, 5...d5 | C21 Danish Gambit Accepted: Schlechter Defense | 10 plies |
+| Copenhagen Defense | C21 Danish Gambit Accepted: Copenhagen Defense | 10 plies |
+| Sörensen Defense | C21 Danish Gambit Declined: Sörensen Defense | 6 plies |
+
+<details><summary>Moves</summary>
+
+- **Accepted, 5...d5:** 1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 d5 6.Bxd5 Nf6 7.Bxf7+ Kxf7 8.Qxd8 Bb4+ 9.Qd2 Bxd2+ 10.Nxd2
+- **Copenhagen Defense:** 1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Bb4+ 6.Nc3 Nf6 7.Ne2 Nxe4 8.O-O Nxc3 9.Nxc3 Bxc3 10.Bxc3
+- **Sörensen Defense:** 1.e4 e5 2.d4 exd4 3.c3 d5 4.exd5 Qxd5 5.cxd4 Nc6 6.Nf3 Bg4 7.Be2 Bb4+ 8.Nc3 Bxf3 9.Bxf3
+
+</details>
+
 ### Dutch Defense (A80) — `dutch.pgn`
 
 | Line | Deepest named position in the dataset | Reached after |
@@ -135,6 +238,22 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 - **Leningrad:** 1.d4 f5 2.g3 Nf6 3.Bg2 g6 4.Nf3 Bg7 5.O-O O-O 6.c4 d6 7.Nc3 Qe8 8.d5 a5
 - **Stonewall:** 1.d4 f5 2.c4 Nf6 3.g3 e6 4.Bg2 d5 5.Nf3 c6 6.O-O Bd6 7.b3 Qe7 8.Bb2 O-O
 - **Staunton Gambit:** 1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 Nc6 5.d5 Ne5 6.Qd4 Nf7 7.Bxf6 exf6 8.Nxe4
+
+</details>
+
+### Elephant Gambit (C40) — `elephant-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Maróczy Gambit | C40 Elephant Gambit: Maróczy Gambit | 6 plies |
+| Paulsen Countergambit | C40 Elephant Gambit: Paulsen Countergambit | 6 plies |
+| 3.Nxe5 | C40 Elephant Gambit | 4 plies |
+
+<details><summary>Moves</summary>
+
+- **Maróczy Gambit:** 1.e4 e5 2.Nf3 d5 3.exd5 Bd6 4.d4 e4 5.Ne5 Nf6 6.Bc4 O-O 7.O-O Nbd7 8.Bf4 Nb6 9.Bb3 Nbxd5
+- **Paulsen Countergambit:** 1.e4 e5 2.Nf3 d5 3.exd5 e4 4.Qe2 Nf6 5.d3 Be7 6.dxe4 O-O 7.Nc3 Re8
+- **3.Nxe5:** 1.e4 e5 2.Nf3 d5 3.Nxe5 Bd6 4.d4 dxe4 5.Bc4 Bxe5 6.dxe5 Qxd1+ 7.Kxd1 Nc6 8.Bf4 Be6
 
 </details>
 
@@ -153,6 +272,36 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 - **Closed, Botvinnik setup:** 1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.e4
 - **Symmetrical, 1...c5:** 1.c4 c5 2.Nf3 Nc6 3.Nc3 g6 4.g3 Bg7 5.Bg2 Nf6 6.O-O O-O 7.d4 cxd4 8.Nxd4
 - **Mikenas, 1...Nf6 2...e6:** 1.c4 Nf6 2.Nc3 e6 3.e4 d5 4.e5 d4 5.exf6 dxc3 6.bxc3 Qxf6 7.d4
+
+</details>
+
+### Englund Gambit (A40) — `englund-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| 6.Bc3? Trap | A40 Englund Gambit: Main Line | 6 plies |
+| 6.Nc3 Main Line | A40 Englund Gambit: Main Line | 6 plies |
+
+<details><summary>Moves</summary>
+
+- **6.Bc3? Trap:** 1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Bf4 Qb4+ 5.Bd2 Qxb2 6.Bc3 Bb4 7.Qd2 Bxc3 8.Qxc3 Qc1#
+- **6.Nc3 Main Line:** 1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Bf4 Qb4+ 5.Bd2 Qxb2 6.Nc3 Bb4 7.Rb1 Qa3 8.Rb3 Qa5
+
+</details>
+
+### Italian Game: Evans Gambit (C51) — `evans-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Accepted, 5...Ba5 | C52 Italian Game: Evans Gambit, Mieses Defense | 14 plies |
+| 5...Be7 | C51 Italian Game: Evans Gambit, Anderssen Variation, Cordel Line | 12 plies |
+| Declined | C51 Italian Game: Evans Gambit Declined, Showalter Variation | 11 plies |
+
+<details><summary>Moves</summary>
+
+- **Accepted, 5...Ba5:** 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 exd4 7.O-O Nge7 8.cxd4 d5 9.exd5 Nxd5 10.Ba3
+- **5...Be7:** 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4 Na5 7.Nxe5 Nxc4 8.Nxc4 d5 9.exd5 Qxd5 10.Ne3
+- **Declined:** 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6 6.Nc3 Nf6 7.Nd5 Nxd5 8.exd5 Nd4 9.a5 Ba7 10.d6
 
 </details>
 
@@ -204,6 +353,20 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 
 </details>
 
+### Bird Opening: From's Gambit (A02) — `froms-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| 4.Nf3 Lasker Variation | A02 Bird Opening: From's Gambit, Lasker Variation | 8 plies |
+| 4.Nc3?? Trap | A02 Bird Opening: From's Gambit | 2 plies |
+
+<details><summary>Moves</summary>
+
+- **4.Nf3 Lasker Variation:** 1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 g5 5.d4 g4 6.Ne5 Bxe5 7.dxe5 Qxd1+ 8.Kxd1 Nc6 9.Bf4 Be6 10.Nc3 O-O-O+
+- **4.Nc3?? Trap:** 1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nc3 Qh4+ 5.g3 Qxg3+ 6.hxg3 Bxg3#
+
+</details>
+
 ### Grünfeld Defense (D80) — `grunfeld.pgn`
 
 | Line | Deepest named position in the dataset | Reached after |
@@ -219,6 +382,20 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 - **Modern Exchange, 7.Nf3:** 1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 7.Nf3 c5 8.Rb1 O-O 9.Be2 cxd4 10.cxd4 Qa5+ 11.Bd2 Qxa2 12.O-O
 - **Russian, Smyslov:** 1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3 dxc4 6.Qxc4 O-O 7.e4 Bg4 8.Be3 Nfd7 9.Qb3 Nb6
 - **4.Bf4:** 1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 c5 6.dxc5 Qa5 7.Rc1 dxc4 8.Bxc4 O-O 9.Nf3 Qxc5 10.Bb3
+
+</details>
+
+### Four Knights Game: Halloween Gambit (C47) — `halloween-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Oldtimer Variation | C47 Four Knights Game: Halloween Gambit, Oldtimer Variation | 16 plies |
+| Plasma Variation | C47 Four Knights Game: Halloween Gambit, Plasma Variation | 22 plies |
+
+<details><summary>Moves</summary>
+
+- **Oldtimer Variation:** 1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Ng6 6.e5 Ng8 7.Bc4 Bb4 8.Qf3 f5
+- **Plasma Variation:** 1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Nc6 6.d5 Ne5 7.f4 Ng6 8.e5 Ng8 9.d6 cxd6 10.exd6 Qf6 11.Nb5 Rb8
 
 </details>
 
@@ -294,6 +471,20 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 
 </details>
 
+### Latvian Gambit (C40) — `latvian-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| 3.Nxe5 Main Line | C40 Latvian Gambit Accepted: Bilguer Variation | 9 plies |
+| 3.Bc4 | C40 Latvian Gambit: Mayet Attack, Polerio-Svedenborg Variation | 8 plies |
+
+<details><summary>Moves</summary>
+
+- **3.Nxe5 Main Line:** 1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Nc3 Qg6 7.f3 exf3 8.Qxf3 Nf6
+- **3.Bc4:** 1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 d5 5.Qh5+ g6 6.Nxg6 Nf6 7.Qe5+ Be7 8.Bb5+ c6 9.Nxe7 Qxe7 10.Qxe7+ Kxe7
+
+</details>
+
 ### London System (D02) — `london-system.pgn`
 
 | Line | Deepest named position in the dataset | Reached after |
@@ -307,6 +498,18 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 - **vs 1...d5:** 1.d4 d5 2.Bf4 Nf6 3.e3 c5 4.c3 Nc6 5.Nd2 e6 6.Ngf3 Bd6 7.Bg3 O-O 8.Bd3 b6 9.Ne5
 - **2...c5 and ...Qb6:** 1.d4 d5 2.Bf4 c5 3.e3 Nc6 4.c3 Qb6 5.Qb3 c4 6.Qc2
 - **vs King's Indian setup:** 1.d4 Nf6 2.Bf4 g6 3.e3 Bg7 4.Nf3 O-O 5.Be2 d6 6.h3 c5 7.c3
+
+</details>
+
+### Caro-Kann Defense: Martian Gambit (B18) — `martian-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Main line | B18 Caro-Kann Defense: Martian Gambit | 13 plies |
+
+<details><summary>Moves</summary>
+
+- **Main line:** 1.e4 c6 2.d4 d5 3.Nd2 dxe4 4.Nxe4 Bf5 5.Ng5 Bg6 6.N1f3 h6 7.Ne6 fxe6 8.Bd3 Bxd3 9.Qxd3 Nf6 10.Qg6+ Kd7 11.Ne5+ Kc7
 
 </details>
 
@@ -325,6 +528,22 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 - **Classical, 4.Qc2:** 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 b6 7.Bg5 Bb7 8.f3 h6 9.Bh4 d5 10.e3
 - **Sämisch, 4.a3:** 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5 6.e3 Nc6 7.Bd3 O-O 8.Ne2 b6 9.e4 Ne8
 - **4.Nf3:** 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4 6.Nxd4 O-O 7.Bg2 d5 8.cxd5 Nxd5
+
+</details>
+
+### Nimzo-Larsen Attack (A01) — `nimzo-larsen-attack.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| 1...e5 Classical | A01 Nimzo-Larsen Attack: Modern Variation | 5 plies |
+| 1...d5 | A13 English Opening: Agincourt Defense, Wimpy System | 9 plies |
+| 1...Nf6 | A01 Nimzo-Larsen Attack: Indian Variation | 2 plies |
+
+<details><summary>Moves</summary>
+
+- **1...e5 Classical:** 1.b3 e5 2.Bb2 Nc6 3.e3 d5 4.Bb5 Bd6 5.f4 Qh4+ 6.g3 Qe7 7.Nf3 f6 8.Nc3 Bd7 9.O-O
+- **1...d5:** 1.b3 d5 2.Bb2 Nf6 3.e3 e6 4.Nf3 c5 5.c4 Nc6 6.cxd5 exd5 7.Bb5 Bd6 8.O-O O-O 9.Bxc6 bxc6 10.d3
+- **1...Nf6:** 1.b3 Nf6 2.Bb2 g6 3.e4 d6 4.d4 Bg7 5.Nc3 O-O 6.Nf3 Bg4 7.Be2
 
 </details>
 
@@ -565,6 +784,20 @@ equals a dataset name along the lines (or, for a name without a sub-variation, t
 - **Main line, Dutch Variation:** 1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.e3 e6 7.Bxc4 Bb4 8.O-O Nbd7 9.Qe2 Bg6 10.e4 O-O 11.e5 Nd5
 - **4.e3:** 1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6 6.Nh4 Bg6 7.Nxg6 hxg6 8.Bd3 Nbd7 9.O-O Bd6
 - **Exchange Variation:** 1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Bf4 Nc6 6.e3 Bf5 7.Nf3 e6
+
+</details>
+
+### Sicilian Defense: Smith-Morra Gambit (B21) — `smith-morra-gambit.pgn`
+
+| Line | Deepest named position in the dataset | Reached after |
+|---|---|---|
+| Accepted | B21 Sicilian Defense: Smith-Morra Gambit Accepted, Scheveningen Formation | 12 plies |
+| 3...d3 Declined | B21 Sicilian Defense: Smith-Morra Gambit Declined, Push Variation | 6 plies |
+
+<details><summary>Moves</summary>
+
+- **Accepted:** 1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4 e6 7.O-O Nf6 8.Qe2 Be7 9.Rd1 e5 10.h3
+- **3...d3 Declined:** 1.e4 c5 2.d4 cxd4 3.c3 d3 4.Bxd3 Nc6 5.Nf3 d6 6.O-O Nf6 7.c4
 
 </details>
 

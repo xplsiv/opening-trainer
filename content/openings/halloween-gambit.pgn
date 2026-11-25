@@ -1,0 +1,17 @@
+[Event "Halloween Gambit"]
+[Opening "Four Knights Game: Halloween Gambit"]
+[ECO "C47"]
+[Side "white"]
+[Tags "e4,open,gambit,offbeat,sharp"]
+[Difficulty "2"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5 { The Halloween Gambit: a knight for a pawn and a huge pawn centre. }
+4... Nxe5 5. d4 { The pawns chase Black's knights back. }
+5... Ng6 { [%name Oldtimer Variation] }
+( 5... Nc6 { [%name Plasma Variation] }
+  6. d5 Ne5 7. f4 Ng6 8. e5 { The pawns roll forward and push both knights back to the first ranks. }
+  8... Ng8 9. d6 cxd6 10. exd6 Qf6 11. Nb5 { Threatening Nc7+; the d6 pawn cramps Black completely. }
+  11... Rb8 )
+6. e5 Ng8 7. Bc4 { Aiming at f7 straight away. }
+7... Bb4 8. Qf3 { Threatening Qxf7 mate. }
+8... f5 { Black blocks the diagonal; White plays O-O and f4-f5 for the attack. } *
